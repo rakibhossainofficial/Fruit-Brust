@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+    .wrapper{
+        @apply container mx-auto max-w-[65rem];
+    }
+    .heading{
+        @apply text-center text-7xl font-extrabold text-white;        
+    }
+    .title{
+        @apply text-black text-5xl font-extrabold
+    }
+    .description{
+        @apply text-base text-gray-medium leading-7 font-medium
+    }
+}
